@@ -11,9 +11,15 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 blue-gradient " />
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[skyblue]">Cory</span></h1>
+          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[skyblue]">Cory</span>
+          </h1>
+          <p className={`${styles.heroSubText}mt-2 text-white-100`}>I do software devlopment using React Native,<br 
+          className="sm:block hidden" />
+          Asp.net,Unity and a student at Latech
+          </p>
         </div>
       </div>
+      <ComputersCanvas />
     </section>
   )
 }
