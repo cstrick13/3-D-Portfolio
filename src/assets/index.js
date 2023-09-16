@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
-import cory from "./cory.jpg"
-import logo2 from "./logo2.png"
+import cory from "./cory.jpg";
+import linked from "./linkedin1.png"
+import logo2 from "./logo2.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -29,6 +30,7 @@ import starbucks from "./company/starbucks.png";
 import latech from"./company/Latech.png";
 import fenway from "./company/OIP.jpg";
 import tesla from "./company/tesla.png";
+import resume from "./company/RESUME.pdf";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -37,6 +39,7 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   logo2,
+  resume,
   cory,
   backend,
   creator,
@@ -67,4 +70,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  linked
 };

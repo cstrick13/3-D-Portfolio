@@ -11,6 +11,7 @@ import {
     redux,
     tailwind,
     nodejs,
+    resume,
     mongodb,
     git,
     figma,
@@ -25,6 +26,8 @@ import {
     threejs,
     fenway,
     latech,
+    github,
+    linked,
   } from "../assets";
   
   export const navLinks = [
@@ -167,19 +170,22 @@ import {
       testimonial:
         "LinkedIn",
       name: "Sara Lee",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      image: linked,
+      link: "https://github.com/cstrick13",
     },
     {
       testimonial:
         "GitHub",
       name: "Chris Brown",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      image: github,
+      link:"https://www.linkedin.com/in/cory-strickland-b55828229/"
     },
     {
       testimonial:
         "Resume",
       name: "Lisa Wang",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
+      link: resume
     },
   ];
   
