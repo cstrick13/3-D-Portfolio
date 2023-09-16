@@ -177,7 +177,7 @@ import {
     },
     {
       testimonial:
-        "Download resume",
+        "Resume",
       name: "Lisa Wang",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
