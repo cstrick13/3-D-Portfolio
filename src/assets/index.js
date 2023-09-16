@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import cory from "./cory.jpg"
 import logo2 from "./logo2.png"
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -25,6 +26,8 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import latech from"./company/Latech.png";
+import fenway from "./company/OIP.jpg";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -34,6 +37,7 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   logo2,
+  cory,
   backend,
   creator,
   mobile,
@@ -57,6 +61,8 @@ export {
   meta,
   shopify,
   starbucks,
+  latech,
+  fenway,
   tesla,
   carrent,
   jobit,
