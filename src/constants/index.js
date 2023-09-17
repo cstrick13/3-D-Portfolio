@@ -12,6 +12,7 @@ import {
     tailwind,
     nodejs,
     resume,
+    blackresume,
     mongodb,
     git,
     figma,
@@ -70,14 +71,6 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
     },
@@ -88,10 +81,6 @@ import {
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -184,7 +173,7 @@ import {
       testimonial:
         "Resume",
       name: "Lisa Wang",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: blackresume,
       link: resume
     },
   ];

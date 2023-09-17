@@ -42,7 +42,6 @@ const About = () => {
     <div className="-mt-14">
     <>
       <motion.div variants={textVariant()}>
-      <img className="w-[150px] h-[150px] object-contain" src={cory}  />
         <h2 className={styles.sectionHeadText}>About Me.</h2>
       </motion.div>
 

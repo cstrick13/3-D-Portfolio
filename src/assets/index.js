@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import blackresume from "./resume1.png";
 import cory from "./cory.jpg";
 import linked from "./linkedin1.png"
 import logo2 from "./logo2.png";
@@ -54,6 +55,7 @@ export {
   git,
   html,
   javascript,
+  blackresume,
   mongodb,
   nodejs,
   reactjs,

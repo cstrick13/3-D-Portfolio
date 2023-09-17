@@ -1,21 +1,26 @@
-import React, { Suspense } from "react";
+import React, { Suspense ,useState} from "react";
 import { Canvas } from "@react-three/fiber";
 import {
   Decal,
   Float,
   OrbitControls,
   Preload,
-  useTexture,
+  useTexture,Html
 } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
+import { technologies } from "../../constants";
 
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
+  const [isHovered, setIsHovered] = useState(false);
+  console.log('Name:', props.name); 
+  console.log('isHovered:', isHovered);
 
   return (
-    <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
+    <Float speed={1.75} rotationIntensity={1} floatIntensity={2} onPointerOver={() => setIsHovered(true)}
+    onPointerOut={() => setIsHovered(false)}>
       <ambientLight intensity={0.75} />
       <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow receiveShadow scale={2.75}>
@@ -33,20 +38,45 @@ const Ball = (props) => {
           map={decal}
           flatShading
         />
-      </mesh>
+         {isHovered && (
+        <Html position={[-1.2, 1, 0]}>
+        <div
+          className="
+            bg-opacity-70
+            bg-secondary
+            p-3
+            text-white
+            text-base
+            text-center
+            border
+            border-purple-500
+            rounded-md
+            justify-center
+          "
+        >
+          {props.name}
+        </div>
+      </Html>
+      )}
+        </mesh>
+
     </Float>
   );
 };
 
-const BallCanvas = ({ icon }) => {
+const BallCanvas = ({ icon,name }) => {
+  console.log('Name passed to BallCanvas:', name);
+  console.log('imgUrl:', icon); 
   return (
+    
     <Canvas
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
+      className="h-12 cursor-pointer"
     >
-        <OrbitControls enableZoom="false" enablePan="false" />
+        <OrbitControls enableZoom={false} enablePan={false} />
       <Suspense fallback={<CanvasLoader />}>
-        <Ball imgUrl={icon} />
+          <Ball imgUrl={icon} name={name} />
       </Suspense>
 
       <Preload all />
