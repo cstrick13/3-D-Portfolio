@@ -31,7 +31,18 @@ import {
     linked,
     cyber,
     ledMatrix,
-    calculator
+    calculator,
+    appium,
+    azure,
+    bash,
+    cSharp,
+    java,
+    linux,
+    python,
+    reactNative,
+    scrum,
+    sql,
+    calc
   } from "../assets";
   
   export const navLinks = [
@@ -63,7 +74,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Aumotated Tester",
+      title: "Automated Testing",
       icon: backend,
     },
     {
@@ -78,81 +89,93 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "React JS",
-      icon: reactjs,
+      name: "Appium",
+      icon: appium,
+    },
+    {
+      name: "Azure",
+      icon: azure,
+    },
+    {
+      name: "C#",
+      icon: cSharp,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "Linux",
+      icon: linux,
+    },
+    {
+      name: "React Native",
+      icon: reactNative,
+    },
+    {
+      name: "Scrum",
+      icon: scrum,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
     {
-      name: "git",
-      icon: git,
+      name: "Typescript",
+      icon: typescript,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
+      name: "Html",
+      icon: html,
     },
   ];
   
   const experiences = [
     {
-      title: "Web Developer",
-      company_name: "Fenway",
-      icon: fenway,
-      iconBg: "white",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Computer Science",
-      company_name: "LaTech",
+      title: "Education",
+      company_name: "Louisiana Tech",
       icon: latech,
       iconBg: "white",
-      date: "Jan 2022 - Nov 2024",
+      date: "Sept 2020 - Nov 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Computer Science with a concetration in Cyber Security and a minor in Game design",
+        "Expected graduation date is Nov 2024",
+        "GPA: 3.0",
       ],
     },
     {
-      title: "React Native Developer",
+      title: "Web Developer",
       company_name: "Fenwaygroup",
       icon: fenway,
       iconBg: "white",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Developed a website and Video Display system for smart parking meters.",
+        "Integrated Augmented Reality for enforcement purposes, enabling users to pay through the meters.",
+        "Established a new SQL database to handle data storage and management as well as set up an Azure environment to host the application.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Proficient in C#, ASP.NET, SQL Server, Azure, and WinForms for software development.",
+      ],
+    },
+    {
+      title: "React Native",
+      company_name: "Fenwaygroup",
+      icon: fenway,
+      iconBg: "white",
+      date: "May 2022 - Dec 2022",
+      points: [
+        "Implemented a structured testing cycle including user-level bug testing, feature-specific testing, and overall regression testing.",
+        "Managed test cases using Confluence documentation and logged issues in Jira for tracking and debugging.",
+        "Integrated Bluetooth functionality for enhanced user experience and convenience and enabled in-app payment options for parking, providing a seamless and convenient payment solution.",
+        "Proficient in React Native, JavaScript/TypeScript, automated testing, and project management tools like Jira and Confluence for efficient and collaborative mobile app development.",
       ],
     },
   ];
@@ -163,14 +186,14 @@ import {
         "LinkedIn",
       name: "Sara Lee",
       image: linked,
-      link: "https://github.com/cstrick13",
+      link: "https://www.linkedin.com/in/cory-strickland-b55828229/",
     },
     {
       testimonial:
         "GitHub",
       name: "Chris Brown",
       image: github,
-      link:"https://www.linkedin.com/in/cory-strickland-b55828229/"
+      link:"  https://github.com/cstrick13"
     },
     {
       testimonial:
@@ -185,7 +208,7 @@ import {
     {
       name: "MineCraft Led Matrix",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eveniet sint soluta iusto exercitationem excepturi harum optio reprehenderit iure, modi quod magni dicta blanditiis non, numquam quibusdam. Laborum vero pariatur quos recusandae accusamus modi quia fugit quisquam neque Dolore atque totam obcaecati harum dolorum autem quis ratione neque Fuga officia.",
+        "An engineering expo project done using python,raspbery pi interface and javascript web development.The matrix allowed the user to create custom pixel art on a website connected to a Pi.It did live updates from the web app to your screen,also imports of pixel assest for saving,displaying and changing the image as well store the images in a file as the pixel art.We won first place in the cyber expo",
       tags: [
         {
           name: "python",
@@ -201,12 +224,11 @@ import {
         },
       ],
       image: ledMatrix,
-      source_code_link: "https://github.com/",
     },
     {
       name: "Cyber-Druid",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eveniet sint soluta iusto exercitationem excepturi harum optio reprehenderit iure, modi quod magni dicta blanditiis non, numquam quibusdam. Laborum vero pariatur quos recusandae accusamus modi quia fugit quisquam neque Dolore atque totam obcaecati harum dolorum autem quis ratione neque Fuga officia",
+        "A 2d top down pixel art rouguelike that follows a cyber-druid who has to save his planet from cyber-corruption of a rouge and dangerous invasive alien race.The game is made in Unity and features procedural dungeon loading for a roguelike experience and more.",
       tags: [
         {
           name: "C#",
@@ -222,12 +244,11 @@ import {
         },
       ],
       image: cyber,
-      source_code_link: "https://github.com/",
     },
     {
       name: "Vector Calculator",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eveniet sint soluta iusto exercitationem excepturi harum optio reprehenderit iure, modi quod magni dicta blanditiis non, numquam quibusdam. Laborum vero pariatur quos recusandae accusamus modi quia fugit quisquam neque Dolore atque totam obcaecati harum dolorum autem quis ratione neque Fuga officia",
+        "A React Native project that takes two vector arrays and allows you to scale them per the user's preference.After which it runs multiple vector calculations multiplying,adding,subtracting and dot prouct.As well as displays the formula and how you would go about performing the operation on the two vectors ",
       tags: [
         {
           name: "react native",
@@ -238,8 +259,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: calc,
     },
   ];
   

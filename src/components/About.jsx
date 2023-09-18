@@ -49,9 +49,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-2 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eveniet sint soluta iusto exercitationem excepturi harum optio reprehenderit iure, modi quod magni dicta blanditiis non, numquam quibusdam. Laborum vero pariatur quos recusandae accusamus modi quia fugit 
-        quisquam neque. Dolore atque totam obcaecati harum dolorum autem quis, ratione neque? Fuga, officia.
-      </motion.p>
+        I'm Cory Strickland, a 21-year-old with a passion for software development and cybersecurity.I'm a student at Louisiana Tech going for my computer science degree with a concetration in cyber security and minor in game design.
+         With over a year of experience working for software development company, I'm ready launch my first portfolio website.I'm very excited to broaden my horizons and take on new challenges and oppurtunities.</motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

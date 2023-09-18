@@ -18,7 +18,6 @@ const Contact = () => {
           scale: 1,
           speed: 450,
         }}>
-          <h3 className={styles.sectionHeadText}>Contacts</h3>
       <div className="bg-gradient-to-b from-white to-tertiary shadow-md rounded-xl p-7 max-w-md mx-auto">
           <div className="flex items-center justify-center mb-4">
           <img className="w-[200px] h-[200px] rounded-full mr-4 items-center" src={cory} alt="Contact Avatar" />

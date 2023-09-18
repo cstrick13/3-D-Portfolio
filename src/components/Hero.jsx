@@ -11,17 +11,16 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 blue-gradient " />
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[skyblue]">Cory</span>
+          <h1 className={`${styles.heroHeadText} text-white`}>Welcome I'm,<span className="text-[skyblue]">Cory</span>
           </h1>
-          <p className={`${styles.heroSubText}mt-2 text-white-100`}>I do software devlopment using React Native,<br 
+          <p className={`${styles.heroSubText}mt-2 text-white-100`}>I do software development and cyber security<br 
           className="sm:block hidden" />
-          Asp.net,Unity and a student at Latech
           </p>
         </div>
       </div>
       <ComputersCanvas />
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex flex justify-center items-center">
+      <div className="absolute xs:bottom-10 bottom-32 w-full flex flex-col justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.dev animate={{y:[0,24,0]}} transition={{duration:1.5,repeat:Infinity,repeateType:'loop'}}className="w-3 h-3 rounded-full bg-secondary mb-1" />

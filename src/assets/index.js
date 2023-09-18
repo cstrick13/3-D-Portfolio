@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import ledMatrix from "./ledMatrix.png";
 import cyber from "./cyber.png";
+import calc from "./vector-calc.png"
 import calculator from "./calc.png";
 import blackresume from "./resume1.png";
 import cory from "./cory.jpg";
@@ -15,6 +16,16 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import appium from "./tech/appium.png";
+import azure from "./tech/azure.png";
+import bash from "./tech/bash.png";
+import cSharp from "./tech/cSharp.png";
+import java from "./tech/java.png";
+import linux from "./tech/linux.png";
+import python from "./tech/python.png";
+import reactNative from "./tech/reactnative.png";
+import scrum from "./tech/scrum.png";
+import sql from "./tech/sql.png"
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -41,6 +52,17 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  appium,
+  calc,
+  azure,
+  bash,
+  cSharp,
+  java,
+  linux,
+  python,
+  reactNative,
+  scrum,
+  sql,
   logo,
   logo2,
   resume,
