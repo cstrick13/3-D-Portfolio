@@ -29,6 +29,9 @@ import {
     latech,
     github,
     linked,
+    cyber,
+    ledMatrix,
+    calculator
   } from "../assets";
   
   export const navLinks = [
@@ -131,7 +134,7 @@ import {
       company_name: "LaTech",
       icon: latech,
       iconBg: "white",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jan 2022 - Nov 2024",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -180,66 +183,62 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "MineCraft Led Matrix",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eveniet sint soluta iusto exercitationem excepturi harum optio reprehenderit iure, modi quod magni dicta blanditiis non, numquam quibusdam. Laborum vero pariatur quos recusandae accusamus modi quia fugit quisquam neque Dolore atque totam obcaecati harum dolorum autem quis ratione neque Fuga officia.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "neopixel",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "javscript",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: ledMatrix,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Cyber-Druid",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eveniet sint soluta iusto exercitationem excepturi harum optio reprehenderit iure, modi quod magni dicta blanditiis non, numquam quibusdam. Laborum vero pariatur quos recusandae accusamus modi quia fugit quisquam neque Dolore atque totam obcaecati harum dolorum autem quis ratione neque Fuga officia",
       tags: [
         {
-          name: "react",
+          name: "C#",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "unity",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "pixelart",
           color: "pink-text-gradient",
+        },
+      ],
+      image: cyber,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Vector Calculator",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eveniet sint soluta iusto exercitationem excepturi harum optio reprehenderit iure, modi quod magni dicta blanditiis non, numquam quibusdam. Laborum vero pariatur quos recusandae accusamus modi quia fugit quisquam neque Dolore atque totam obcaecati harum dolorum autem quis ratione neque Fuga officia",
+      tags: [
+        {
+          name: "react native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react",
+          color: "green-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
       source_code_link: "https://github.com/",
     },
   ];

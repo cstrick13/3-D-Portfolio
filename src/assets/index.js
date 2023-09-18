@@ -1,4 +1,7 @@
 import logo from "./logo.svg";
+import ledMatrix from "./ledMatrix.png";
+import cyber from "./cyber.png";
+import calculator from "./calc.png";
 import blackresume from "./resume1.png";
 import cory from "./cory.jpg";
 import linked from "./linkedin1.png"
@@ -41,6 +44,9 @@ export {
   logo,
   logo2,
   resume,
+  cyber,
+  ledMatrix,
+  calculator,
   cory,
   backend,
   creator,
