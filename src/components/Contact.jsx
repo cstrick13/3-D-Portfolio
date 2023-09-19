@@ -12,34 +12,32 @@ const Contact = () => {
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
        
-      <motion.div variants={slideIn('left',"tween",.2,1)} >
-      <Tilt className="flex-[.80] bg-black-100 p-8 rounded-2xl" options={{
-          max: 20,
-          scale: 1,
-          speed: 450,
-        }}>
-      <div className="bg-gradient-to-b from-white to-tertiary shadow-md rounded-xl p-7 max-w-md mx-auto">
-          <div className="flex items-center justify-center mb-4">
-          <img className="w-[200px] h-[200px] rounded-full mr-4 items-center" src={cory} alt="Contact Avatar" />
-          </div>
+      <motion.div variants={slideIn('left',"tween",.2,1)} className="flex-[.80] bg-black-100 p-8 rounded-2xl w-[250px] h-[650px]"  >
+          <h3 className={styles.sectionHeadText}>Contacts</h3>
+          <div className="flex flex-col items-center justify-center pb-10">
+      <div className="bg-white shadow-md rounded-xl p-7 max-w-md items-center justify-center">
+          <img className="w-[200px] h-[200px] rounded-full shadow-lg mx-auto mb-4"  src={cory} alt="Contact Avatar" />
+          <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Cory Strickland</h5>
+        <span className="text-sm text-gray-500 dark:text-gray-400">Software Developer</span>
+          
     <div className="mb-4">
-      <label className="block text-black text-sm font-bold mb-2">
+      <label className="block text-gray-500 dark:text-gray-400 text-sm font-bold mb-2">
               Phone Number:
       </label>
     <div className="bg-white bg-opacity-25 p-3 rounded-lg font-semibold">
-      <p className="text-black ">601-329-9202</p>
+      <p className="text-gray-500 dark:text-gray-400 ">601-329-9202</p>
     </div>
     </div>
     <div className="mb-4">
-      <label className="block text-black  text-sm font-bold mb-2">
+      <label className="block text-gray-500 dark:text-gray-400  text-sm font-bold mb-2">
               Email:
       </label>
     <div className="bg-white bg-opacity-25 p-3 rounded-lg font-semibold">
-      <p className="text-black ">corystrickland13@gmail.com</p>
+      <p className="text-gray-500 dark:text-gray-400 ">corystrickland13@gmail.com</p>
+      </div>
       </div>
         </div>
     </div>
-    </Tilt>
     </motion.div>
     
     
