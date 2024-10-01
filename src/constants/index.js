@@ -55,8 +55,8 @@ import {
       title: "Experience",
     },
     {
-      id: "resume",
-      title: "Resume",
+      id: "works",
+      title: "Projects",
     },
     {
       id: "contact",

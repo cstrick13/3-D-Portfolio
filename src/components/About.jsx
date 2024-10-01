@@ -42,15 +42,15 @@ const About = () => {
     <div className="-mt-14">
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}>About Me.</h2>
+        <h2 className={styles.sectionHeadText}>Hello.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-2 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm Cory Strickland, a 21-year-old with a passion for software development and cybersecurity.I'm a student at Louisiana Tech going for my computer science degree with a concetration in cyber security and minor in game design.
-         With over a year of experience working for software development company, I'm ready launch my first portfolio website.I'm very excited to broaden my horizons and take on new challenges and oppurtunities.</motion.p>
+        I'm Cory Strickland, a 21-year-old with a passion for software development.I'm a senior at Louisiana Tech going for my computer science degree with a concetration in cyber security.
+         With over 2 years of experience doing software engineering.</motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
