@@ -74,11 +74,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Automated Testing",
+      title: "Full-Stack Developer",
       icon: backend,
     },
     {
-      title: "Cyber Security",
+      title: "Software Engineer",
       icon: creator,
     },
   ];
@@ -144,11 +144,11 @@ import {
       company_name: "Louisiana Tech",
       icon: latech,
       iconBg: "white",
-      date: "Sept 2020 - Nov 2024",
+      date: "Sept 2020 - May 2025",
       points: [
-        "Computer Science with a concetration in Cyber Security and a minor in Game design",
-        "Expected graduation date is Nov 2024",
-        "GPA: 3.0",
+        "Computer Science with a concetration in Cyber Security",
+        "Expected graduation date is May 2025",
+        "GPA: 3.18",
       ],
     },
     {
@@ -205,6 +205,26 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Living With The Lab",
+      description:
+        "Official wbesite for the first year freshman engineering program at Louisiana Tech",
+      tags: [
+        {
+          name: "wordpress",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "web design",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ledMatrix,
+    },
     {
       name: "MineCraft Led Matrix",
       description:
